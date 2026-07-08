@@ -1,0 +1,1 @@
+import {Link} from 'react-router-dom';export default()=> <aside><p><Link to='/'>Dashboard</Link></p><p><Link to='/users'>Users</Link></p><p><Link to='/products'>Products</Link></p><p><Link to='/orders'>Orders</Link></p></aside>;

@@ -1,0 +1,1 @@
+export default()=> <nav><h2>EKS Microservices Demo</h2></nav>;
