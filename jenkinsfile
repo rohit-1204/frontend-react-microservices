@@ -22,6 +22,8 @@ pipeline {
                     docker tag ${IMAGE_NAME}:${IMAGE_TAG} ${IMAGE_NAME}:latest
                 '''
             }
+
+            
         }
 
         stage('Docker Hub Login') {
