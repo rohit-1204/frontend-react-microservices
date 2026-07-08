@@ -11,7 +11,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'git@github.com:rohit-1204/frontend-react-microservices.git'
+                    url: 'https://github.com/rohit-1204/frontend-react-microservices.git'
             }
         }
 
